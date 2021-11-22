@@ -1,0 +1,26 @@
+package mySelfProgramming;
+
+import java.util.Scanner;
+
+class Practice1 {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int counter=0;
+		int Totalmark=0,mark=0;
+		
+		while(counter<5) {
+			
+			System.out.print("Insert your mark : ");
+		    mark=in.nextInt();
+		    
+		    Totalmark=Totalmark+mark;
+		    counter=counter+1;
+		}
+		
+		System.out.print("\nTotal of marks enter by 5 userrs ");
+		System.out.print("\nTotal : " + Totalmark);
+		
+	}
+
+}
