@@ -1,0 +1,16 @@
+package mySelfProgramming;
+
+class Practice5 {
+
+	public static void main(String[] args) {
+		int sum=0,number =3;
+		do{
+			sum+=number;
+			number = number + 4;
+	    System.out.println("SUM :" + sum);
+			} while (number <= 12);
+
+
+	}
+
+}
