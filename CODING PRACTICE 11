@@ -1,0 +1,15 @@
+package mySelfProgramming;
+
+class Practice11 {
+
+	public static void main(String[] args) {
+		int num =9;
+		while (num > 0)
+		{
+			System.out.print (num + " ");
+			num = num -2;   
+		}
+
+	}
+
+}
